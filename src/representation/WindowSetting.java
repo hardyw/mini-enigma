@@ -13,9 +13,9 @@ package representation;
  */
 public class WindowSetting {
 
-	private int LEFT = 0;
-	private int MID = 1;
-	private int RIGHT = 2;
+	private static final int LEFT = 0;
+	private static final int MID = 1;
+	private static final int RIGHT = 2;
 	
 	//The windows display what the Enigma operator sees
 	private char[] windows = new char[3];
@@ -33,15 +33,11 @@ public class WindowSetting {
 	}
 	
 	
-	public char getWindowValueLeft() {
-		return windows[LEFT];
+	public char getWindowValue(int slot) {
+		return windows[slot];
 	}
-	public char getWindowValueMid() {
-		return windows[MID];
-	}
-	public char getWindowValueRight() {
-		return windows[RIGHT];
-	}
+	
+
 	
 	
 	public void tick(char[] knockers) {

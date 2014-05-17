@@ -14,25 +14,28 @@ package representation;
 
 public class RingSetting {
 
-	private int left;
-	private int mid;
-	private int right;
+	private static final int LEFT = 0;
+	private static final int MID = 1;
+	private static final int RIGHT = 2;
+	
+	private int[] rings = new int[3];
+
 	
 	public RingSetting(int l, int m, int r) {
-		this.left = l;
-		this.mid = m; 
-		this.right = r;
+		
+		this.rings[LEFT] = l;
+		this.rings[MID] = m;
+		this.rings[RIGHT] = r;
+		
 	}
 	
 	//If the ring setting is E (or 05), then offset from 'A' is +4
-	public int leftOffset() {
-		return this.left - 1;
+	public int ringOffset(int slot) {
+		return rings[slot] - 1;
 	}
-	public int midOffset() {
-		return this.mid - 1;
-	}
-	public int rightOffset() {
-		return this.right - 1;
-	}
+	
+	
+	
+
 	
 }
