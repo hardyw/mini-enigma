@@ -34,8 +34,7 @@ public class Main {
 	
 		Reflector ref = new Reflector(FixedMechanicReflector.REFLECTOR_B);
 		Plugboard plug = new Plugboard(new String[] {
-				"AV", "BS", "CG", "DL", "FU", "HZ", "IN", "KM", "OW", "RX"});
-		
+				"AV", "BS", "CG", "DL", "FU", "HZ", "IN", "KM", "OW", "RX"}); //Barbarosa
 		WindowSetting initialSetting = new WindowSetting('B', 'L', 'A');
 		RingSetting ringPositions = new RingSetting(2, 21, 12);
 		
