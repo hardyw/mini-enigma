@@ -30,8 +30,25 @@ public enum FixedMechanicReflector {
 					"MX",
 					"NW",
 					"TQ",
-					"SU"	});
+					"SU"	}),
 	
+	//Less is published about Reflector-A, 
+	//Below based on paper by P Marks and F Weierud
+	REFLECTOR_A (new String[] {
+					"AE", 
+					"BJ",
+					"CM",
+					"DZ",
+					"FL",
+					"GY",
+					"HX",
+					"IV",
+					"KW",
+					"NR",
+					"OQ",
+					"PU",
+					"ST"	});
+
 	private String[] pairing;
 	
 	FixedMechanicReflector(String[] pairs) {
