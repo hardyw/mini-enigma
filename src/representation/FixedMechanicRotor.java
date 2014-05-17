@@ -9,11 +9,12 @@ public enum FixedMechanicRotor {
 
 	ROTOR_I ("EKMFLGDQVZNTOWYHXUSPAIBRCJ", 'R'),
 	ROTOR_II ("AJDKSIRUXBLHWTMCQGZNPYFVOE", 'F'),
-	ROTOR_III ("BDFHJLCPRTXVZNYEIWGAKMUSQO",'W');
+	ROTOR_III ("BDFHJLCPRTXVZNYEIWGAKMUSQO",'W'),
+	ROTOR_IV ("ESOVPZJAYQUIRHXLNFTGKDCMWB",'K'),
+	ROTOR_V ("VZBRGITYUPSDNHLXAWMJQOFECK",'A');
 	
 	private String permutation;
 	private char knocker;
-	
 	
 	
 	FixedMechanicRotor(String perm, char knock){

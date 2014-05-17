@@ -18,19 +18,19 @@ public enum FixedMechanicReflector {
 					"VW"	}),
 					
 	REFLECTOR_C (new String[] {
-			"AF", 
-			"BV",
-			"CP",
-			"DJ",
-			"EI",
-			"GO",
-			"HY",
-			"KR",
-			"LZ",
-			"MX",
-			"NW",
-			"TQ",
-			"SU"	});
+					"AF", 
+					"BV",
+					"CP",
+					"DJ",
+					"EI",
+					"GO",
+					"HY",
+					"KR",
+					"LZ",
+					"MX",
+					"NW",
+					"TQ",
+					"SU"	});
 	
 	private String[] pairing;
 	
